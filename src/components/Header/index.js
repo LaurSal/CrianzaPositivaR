@@ -40,10 +40,10 @@ class Header extends Component {
                   <a className="nav-link" href="/dashboard">
                     Mis entradas
                   </a>
-                  <a className="nav-link" href="agregarblog.html">
+                  <a className="nav-link" href="/crearblog">
                     Añadir blog
                   </a>
-                  <a className="nav-link" href="agregarforo.html">
+                  <a className="nav-link" href="/crearforo">
                     Añadir foro
                   </a>
                   <a className="nav-link" href="/usuarios">

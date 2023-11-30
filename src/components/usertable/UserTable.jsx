@@ -13,12 +13,12 @@ function UserTable() {
 
   const viewUser = (userId) => {
     // Navigate to the user details page
-    navigate(`/user-details/${userId}`);
+    navigate(`/verusuario`);
   };
 
   const editUser = (userId) => {
     // Navigate to the user edit page
-    navigate(`/edit-user/${userId}`);
+    navigate(`/editarusuario`);
   };
 
   return (

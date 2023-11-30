@@ -5,10 +5,10 @@ class Dashboard extends Component {
   render() {
     return  (
       <div>
-        <a href="agregarforo.html" className="h-boton btn btn-secondary" style={{ float: 'right' }}>
+        <a href="/crearforo" className="h-boton btn btn-secondary" style={{ float: 'right' }}>
           <i className="bi bi-arrow-left-circle"></i> Añadir Foro
         </a>
-        <a href="agregarblog.html" className="h-boton btn btn-secondary" style={{ float: 'right' }}>
+        <a href="/crearblog" className="h-boton btn btn-secondary" style={{ float: 'right' }}>
           <i className="bi bi-arrow-left-circle"></i> Añadir Blog
         </a>
   

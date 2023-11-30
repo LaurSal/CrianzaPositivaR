@@ -10,6 +10,9 @@ import Registro from './components/Registro';
 import Dashboard from './components/Dashboard';
 import EditarUsuarios from './pages/ver_usuarios';
 import Usuarios from './pages/usuarios';
+import CrearBlog from './pages/crear_blogs';
+import CrearForo from './pages/crear_foros';
+import Editar1Usuarios from './pages/editar_usuarios';
 import './App.css';
 
 class App extends Component {
@@ -27,7 +30,9 @@ class App extends Component {
               <Route path="/dashboard" element={<Dashboard/>} />
               <Route path="/usuarios" element={<Usuarios/>} />
               <Route path="/verusuario" element={<EditarUsuarios/>} />
-
+              <Route path="/crearblog" element={<CrearBlog/>} />
+              <Route path="/crearforo" element={<CrearForo/>} />
+              <Route path="/editarusuario" element={<Editar1Usuarios/>} />
             </Routes>
     
         </main>
